@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C42ABE29A5A14800409C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42ABD29A5A14800409C59 /* AppDelegate.swift */; };
+		79C42AC029A5A14800409C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42ABF29A5A14800409C59 /* SceneDelegate.swift */; };
+		79C42AC529A5A14800409C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AC329A5A14800409C59 /* Main.storyboard */; };
+		79C42AC729A5A14900409C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AC629A5A14900409C59 /* Assets.xcassets */; };
+		79C42ACA29A5A14900409C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AC829A5A14900409C59 /* LaunchScreen.storyboard */; };
+		79C42AD429A5A20300409C59 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD329A5A20300409C59 /* FileModel.swift */; };
+		79C42AD729A5A22000409C59 /* ListFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD629A5A22000409C59 /* ListFileController.swift */; };
+		79C42ADA29A5A24C00409C59 /* ListFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD929A5A24C00409C59 /* ListFileViewController.swift */; };
+		79C42AE629A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */; };
+		79C42AE729A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */; };
+		79C42AE829A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */; };
+		79C42AE929A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */; };
+		79C42AEA29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */; };
+		79C42AEB29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */; };
+		79C42AEC29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */; };
+		79C42AED29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */; };
+		79C42AEE29A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */; };
+		D7B6885812854D8743E48269 /* Pods_rta_assigment5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C759273CEC964EC5D54FF9B /* Pods-rta-assigment5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rta-assigment5.debug.xcconfig"; path = "Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5.debug.xcconfig"; sourceTree = "<group>"; };
+		66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rta_assigment5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0A869359C3390FDEE174AE /* Pods-rta-assigment5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rta-assigment5.release.xcconfig"; path = "Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5.release.xcconfig"; sourceTree = "<group>"; };
+		79C42ABA29A5A14800409C59 /* rta-assigment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rta-assigment5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C42ABD29A5A14800409C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79C42ABF29A5A14800409C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79C42AC429A5A14800409C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79C42AC629A5A14900409C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C42AC929A5A14900409C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79C42ACB29A5A14900409C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C42AD329A5A20300409C59 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
+		79C42AD629A5A22000409C59 /* ListFileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFileController.swift; sourceTree = "<group>"; };
+		79C42AD929A5A24C00409C59 /* ListFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFileViewController.swift; sourceTree = "<group>"; };
+		79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_11-31-03-74.xml"; sourceTree = "<group>"; };
+		79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-38-52-181.xml"; sourceTree = "<group>"; };
+		79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-41-09-481.xml"; sourceTree = "<group>"; };
+		79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_11-31-03-714.xml"; sourceTree = "<group>"; };
+		79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_13-31-03-714.xml"; sourceTree = "<group>"; };
+		79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-40-01-991.xml"; sourceTree = "<group>"; };
+		79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-39-25-661.xml"; sourceTree = "<group>"; };
+		79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-41-09-471.xml"; sourceTree = "<group>"; };
+		79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C42AB729A5A14800409C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B6885812854D8743E48269 /* Pods_rta_assigment5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8D671EE27AA33E20FD6EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79C42AB129A5A14800409C59 = {
+			isa = PBXGroup;
+			children = (
+				79C42ABC29A5A14800409C59 /* rta-assigment5 */,
+				79C42ABB29A5A14800409C59 /* Products */,
+				BC9BC1B050A5E110D11F8D28 /* Pods */,
+				4E8D671EE27AA33E20FD6EF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79C42ABB29A5A14800409C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C42ABA29A5A14800409C59 /* rta-assigment5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C42ABC29A5A14800409C59 /* rta-assigment5 */ = {
+			isa = PBXGroup;
+			children = (
+				79C42ADB29A5A25400409C59 /* Resources */,
+				79C42AD129A5A1B400409C59 /* ListFile */,
+				79C42ABD29A5A14800409C59 /* AppDelegate.swift */,
+				79C42ABF29A5A14800409C59 /* SceneDelegate.swift */,
+				79C42AC329A5A14800409C59 /* Main.storyboard */,
+				79C42AC629A5A14900409C59 /* Assets.xcassets */,
+				79C42AC829A5A14900409C59 /* LaunchScreen.storyboard */,
+				79C42ACB29A5A14900409C59 /* Info.plist */,
+			);
+			path = "rta-assigment5";
+			sourceTree = "<group>";
+		};
+		79C42AD129A5A1B400409C59 /* ListFile */ = {
+			isa = PBXGroup;
+			children = (
+				79C42AD829A5A22300409C59 /* View */,
+				79C42AD529A5A20B00409C59 /* Controller */,
+				79C42AD229A5A1F400409C59 /* Model */,
+			);
+			path = ListFile;
+			sourceTree = "<group>";
+		};
+		79C42AD229A5A1F400409C59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79C42AD329A5A20300409C59 /* FileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79C42AD529A5A20B00409C59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79C42AD629A5A22000409C59 /* ListFileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79C42AD829A5A22300409C59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79C42AD929A5A24C00409C59 /* ListFileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79C42ADB29A5A25400409C59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79C42ADC29A5A25D00409C59 /* Data */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79C42ADC29A5A25D00409C59 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */,
+				79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */,
+				79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */,
+				79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */,
+				79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */,
+				79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */,
+				79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */,
+				79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */,
+				79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BC9BC1B050A5E110D11F8D28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C759273CEC964EC5D54FF9B /* Pods-rta-assigment5.debug.xcconfig */,
+				6E0A869359C3390FDEE174AE /* Pods-rta-assigment5.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C42AB929A5A14800409C59 /* rta-assigment5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C42ACE29A5A14900409C59 /* Build configuration list for PBXNativeTarget "rta-assigment5" */;
+			buildPhases = (
+				0FADA2E05951220C265C7B2A /* [CP] Check Pods Manifest.lock */,
+				79C42AB629A5A14800409C59 /* Sources */,
+				79C42AB729A5A14800409C59 /* Frameworks */,
+				79C42AB829A5A14800409C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rta-assigment5";
+			productName = "rta-assigment5";
+			productReference = 79C42ABA29A5A14800409C59 /* rta-assigment5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C42AB229A5A14800409C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					79C42AB929A5A14800409C59 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 79C42AB529A5A14800409C59 /* Build configuration list for PBXProject "rta-assigment5" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79C42AB129A5A14800409C59;
+			productRefGroup = 79C42ABB29A5A14800409C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C42AB929A5A14800409C59 /* rta-assigment5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C42AB829A5A14800409C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C42ACA29A5A14900409C59 /* LaunchScreen.storyboard in Resources */,
+				79C42AC729A5A14900409C59 /* Assets.xcassets in Resources */,
+				79C42AE829A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml in Resources */,
+				79C42AC529A5A14800409C59 /* Main.storyboard in Resources */,
+				79C42AEE29A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml in Resources */,
+				79C42AE729A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml in Resources */,
+				79C42AED29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml in Resources */,
+				79C42AEB29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml in Resources */,
+				79C42AE629A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml in Resources */,
+				79C42AEC29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml in Resources */,
+				79C42AE929A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml in Resources */,
+				79C42AEA29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FADA2E05951220C265C7B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rta-assigment5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C42AB629A5A14800409C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C42ABE29A5A14800409C59 /* AppDelegate.swift in Sources */,
+				79C42ADA29A5A24C00409C59 /* ListFileViewController.swift in Sources */,
+				79C42AD429A5A20300409C59 /* FileModel.swift in Sources */,
+				79C42AC029A5A14800409C59 /* SceneDelegate.swift in Sources */,
+				79C42AD729A5A22000409C59 /* ListFileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79C42AC329A5A14800409C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C42AC429A5A14800409C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79C42AC829A5A14900409C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C42AC929A5A14900409C59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79C42ACC29A5A14900409C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79C42ACD29A5A14900409C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79C42ACF29A5A14900409C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C759273CEC964EC5D54FF9B /* Pods-rta-assigment5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ74YFS2K5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rta-assigment5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truongluan.rta-assigment5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C42AD029A5A14900409C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0A869359C3390FDEE174AE /* Pods-rta-assigment5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZ74YFS2K5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rta-assigment5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truongluan.rta-assigment5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C42AB529A5A14800409C59 /* Build configuration list for PBXProject "rta-assigment5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C42ACC29A5A14900409C59 /* Debug */,
+				79C42ACD29A5A14900409C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C42ACE29A5A14900409C59 /* Build configuration list for PBXNativeTarget "rta-assigment5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C42ACF29A5A14900409C59 /* Debug */,
+				79C42AD029A5A14900409C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C42AB229A5A14800409C59 /* Project object */;
+}
