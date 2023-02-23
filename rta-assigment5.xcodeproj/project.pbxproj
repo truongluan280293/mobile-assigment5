@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79006CBB29A5BC0100B9BF9C /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 79006CBA29A5BC0100B9BF9C /* Data */; };
+		79006CBF29A5BF9700B9BF9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CBE29A5BF9700B9BF9C /* Constants.swift */; };
+		79006CC129A5C14D00B9BF9C /* UIViewController+ExtensionUIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CC029A5C14D00B9BF9C /* UIViewController+ExtensionUIView+Extensions.swift */; };
+		79006CC329A5F1F800B9BF9C /* FileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CC229A5F1F800B9BF9C /* FileTableCell.swift */; };
+		79006CC929A5FE5800B9BF9C /* ReviewDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CC829A5FE5800B9BF9C /* ReviewDataViewController.swift */; };
+		79006CCB29A5FE8500B9BF9C /* ReviewDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CCA29A5FE8500B9BF9C /* ReviewDataController.swift */; };
+		79006CCF29A604C100B9BF9C /* FileXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CCE29A604C100B9BF9C /* FileXMLParser.swift */; };
+		79006CD129A60DBF00B9BF9C /* ParseActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CD029A60DBF00B9BF9C /* ParseActionManager.swift */; };
+		79006CD329A6366800B9BF9C /* InstanceIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CD229A6366800B9BF9C /* InstanceIDModel.swift */; };
+		79006CD529A6507400B9BF9C /* ReviewDataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CD429A6507400B9BF9C /* ReviewDataTableCell.swift */; };
+		79006CD729A6F15300B9BF9C /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CD629A6F15300B9BF9C /* DBHelper.swift */; };
+		79006CDA29A7090300B9BF9C /* XMLContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CD929A7090300B9BF9C /* XMLContentViewController.swift */; };
+		79006CDE29A7175B00B9BF9C /* OfficialFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CDD29A7175B00B9BF9C /* OfficialFilesViewController.swift */; };
+		79006CE129A718BC00B9BF9C /* OfficialFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79006CE029A718BC00B9BF9C /* OfficialFilesController.swift */; };
 		79C42ABE29A5A14800409C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42ABD29A5A14800409C59 /* AppDelegate.swift */; };
 		79C42AC029A5A14800409C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42ABF29A5A14800409C59 /* SceneDelegate.swift */; };
 		79C42AC529A5A14800409C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AC329A5A14800409C59 /* Main.storyboard */; };
@@ -15,15 +29,6 @@
 		79C42AD429A5A20300409C59 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD329A5A20300409C59 /* FileModel.swift */; };
 		79C42AD729A5A22000409C59 /* ListFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD629A5A22000409C59 /* ListFileController.swift */; };
 		79C42ADA29A5A24C00409C59 /* ListFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C42AD929A5A24C00409C59 /* ListFileViewController.swift */; };
-		79C42AE629A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */; };
-		79C42AE729A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */; };
-		79C42AE829A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */; };
-		79C42AE929A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */; };
-		79C42AEA29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */; };
-		79C42AEB29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */; };
-		79C42AEC29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */; };
-		79C42AED29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */; };
-		79C42AEE29A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */; };
 		D7B6885812854D8743E48269 /* Pods_rta_assigment5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,20 @@
 		4C759273CEC964EC5D54FF9B /* Pods-rta-assigment5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rta-assigment5.debug.xcconfig"; path = "Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5.debug.xcconfig"; sourceTree = "<group>"; };
 		66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rta_assigment5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0A869359C3390FDEE174AE /* Pods-rta-assigment5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rta-assigment5.release.xcconfig"; path = "Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5.release.xcconfig"; sourceTree = "<group>"; };
+		79006CBA29A5BC0100B9BF9C /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		79006CBE29A5BF9700B9BF9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		79006CC029A5C14D00B9BF9C /* UIViewController+ExtensionUIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ExtensionUIView+Extensions.swift"; sourceTree = "<group>"; };
+		79006CC229A5F1F800B9BF9C /* FileTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTableCell.swift; sourceTree = "<group>"; };
+		79006CC829A5FE5800B9BF9C /* ReviewDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataViewController.swift; sourceTree = "<group>"; };
+		79006CCA29A5FE8500B9BF9C /* ReviewDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataController.swift; sourceTree = "<group>"; };
+		79006CCE29A604C100B9BF9C /* FileXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileXMLParser.swift; sourceTree = "<group>"; };
+		79006CD029A60DBF00B9BF9C /* ParseActionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseActionManager.swift; sourceTree = "<group>"; };
+		79006CD229A6366800B9BF9C /* InstanceIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceIDModel.swift; sourceTree = "<group>"; };
+		79006CD429A6507400B9BF9C /* ReviewDataTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataTableCell.swift; sourceTree = "<group>"; };
+		79006CD629A6F15300B9BF9C /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		79006CD929A7090300B9BF9C /* XMLContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLContentViewController.swift; sourceTree = "<group>"; };
+		79006CDD29A7175B00B9BF9C /* OfficialFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialFilesViewController.swift; sourceTree = "<group>"; };
+		79006CE029A718BC00B9BF9C /* OfficialFilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialFilesController.swift; sourceTree = "<group>"; };
 		79C42ABA29A5A14800409C59 /* rta-assigment5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rta-assigment5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C42ABD29A5A14800409C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79C42ABF29A5A14800409C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,15 +60,6 @@
 		79C42AD329A5A20300409C59 /* FileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
 		79C42AD629A5A22000409C59 /* ListFileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFileController.swift; sourceTree = "<group>"; };
 		79C42AD929A5A24C00409C59 /* ListFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFileViewController.swift; sourceTree = "<group>"; };
-		79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_11-31-03-74.xml"; sourceTree = "<group>"; };
-		79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-38-52-181.xml"; sourceTree = "<group>"; };
-		79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-41-09-481.xml"; sourceTree = "<group>"; };
-		79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_11-31-03-714.xml"; sourceTree = "<group>"; };
-		79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_13-31-03-714.xml"; sourceTree = "<group>"; };
-		79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-40-01-991.xml"; sourceTree = "<group>"; };
-		79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-39-25-661.xml"; sourceTree = "<group>"; };
-		79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "All_in_One_GEN007_2015-07-06_12-41-09-471.xml"; sourceTree = "<group>"; };
-		79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,111 @@
 				66A668902A66C84F50AE75A8 /* Pods_rta_assigment5.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79006CBC29A5BD0F00B9BF9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79006CC029A5C14D00B9BF9C /* UIViewController+ExtensionUIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79006CBD29A5BF8800B9BF9C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				79006CBE29A5BF9700B9BF9C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		79006CC429A5FE2400B9BF9C /* ReviewData */ = {
+			isa = PBXGroup;
+			children = (
+				79006CC729A5FE4400B9BF9C /* Model */,
+				79006CC629A5FE3D00B9BF9C /* Controller */,
+				79006CC529A5FE3400B9BF9C /* View */,
+			);
+			path = ReviewData;
+			sourceTree = "<group>";
+		};
+		79006CC529A5FE3400B9BF9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79006CC829A5FE5800B9BF9C /* ReviewDataViewController.swift */,
+				79006CD429A6507400B9BF9C /* ReviewDataTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79006CC629A5FE3D00B9BF9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79006CCA29A5FE8500B9BF9C /* ReviewDataController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79006CC729A5FE4400B9BF9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79006CCE29A604C100B9BF9C /* FileXMLParser.swift */,
+				79006CD029A60DBF00B9BF9C /* ParseActionManager.swift */,
+				79006CD229A6366800B9BF9C /* InstanceIDModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79006CCC29A6047700B9BF9C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				79006CDB29A7173B00B9BF9C /* OfficialData */,
+				79006CD829A708D600B9BF9C /* XMLViewer */,
+				79006CC429A5FE2400B9BF9C /* ReviewData */,
+				79C42AD129A5A1B400409C59 /* ListFile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		79006CCD29A6049A00B9BF9C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				79006CD629A6F15300B9BF9C /* DBHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		79006CD829A708D600B9BF9C /* XMLViewer */ = {
+			isa = PBXGroup;
+			children = (
+				79006CD929A7090300B9BF9C /* XMLContentViewController.swift */,
+			);
+			path = XMLViewer;
+			sourceTree = "<group>";
+		};
+		79006CDB29A7173B00B9BF9C /* OfficialData */ = {
+			isa = PBXGroup;
+			children = (
+				79006CDF29A718B000B9BF9C /* Controller */,
+				79006CDC29A7174500B9BF9C /* View */,
+			);
+			path = OfficialData;
+			sourceTree = "<group>";
+		};
+		79006CDC29A7174500B9BF9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79006CDD29A7175B00B9BF9C /* OfficialFilesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79006CDF29A718B000B9BF9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79006CE029A718BC00B9BF9C /* OfficialFilesController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		79C42AB129A5A14800409C59 = {
@@ -93,8 +208,11 @@
 		79C42ABC29A5A14800409C59 /* rta-assigment5 */ = {
 			isa = PBXGroup;
 			children = (
+				79006CCD29A6049A00B9BF9C /* Helper */,
+				79006CBC29A5BD0F00B9BF9C /* Extensions */,
+				79006CBD29A5BF8800B9BF9C /* Constants */,
+				79006CCC29A6047700B9BF9C /* Features */,
 				79C42ADB29A5A25400409C59 /* Resources */,
-				79C42AD129A5A1B400409C59 /* ListFile */,
 				79C42ABD29A5A14800409C59 /* AppDelegate.swift */,
 				79C42ABF29A5A14800409C59 /* SceneDelegate.swift */,
 				79C42AC329A5A14800409C59 /* Main.storyboard */,
@@ -135,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				79C42AD929A5A24C00409C59 /* ListFileViewController.swift */,
+				79006CC229A5F1F800B9BF9C /* FileTableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,25 +261,9 @@
 		79C42ADB29A5A25400409C59 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				79C42ADC29A5A25D00409C59 /* Data */,
+				79006CBA29A5BC0100B9BF9C /* Data */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		79C42ADC29A5A25D00409C59 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				79C42ADD29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml */,
-				79C42AE029A5A27600409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml */,
-				79C42ADE29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml */,
-				79C42AE329A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml */,
-				79C42AE229A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml */,
-				79C42AE429A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml */,
-				79C42ADF29A5A27600409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml */,
-				79C42AE129A5A27600409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml */,
-				79C42AE529A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		BC9BC1B050A5E110D11F8D28 /* Pods */ = {
@@ -169,7 +272,6 @@
 				4C759273CEC964EC5D54FF9B /* Pods-rta-assigment5.debug.xcconfig */,
 				6E0A869359C3390FDEE174AE /* Pods-rta-assigment5.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,6 +286,7 @@
 				79C42AB629A5A14800409C59 /* Sources */,
 				79C42AB729A5A14800409C59 /* Frameworks */,
 				79C42AB829A5A14800409C59 /* Resources */,
+				2F19BB892B3F2780C8B978A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,16 +337,8 @@
 			files = (
 				79C42ACA29A5A14900409C59 /* LaunchScreen.storyboard in Resources */,
 				79C42AC729A5A14900409C59 /* Assets.xcassets in Resources */,
-				79C42AE829A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-481.xml in Resources */,
+				79006CBB29A5BC0100B9BF9C /* Data in Resources */,
 				79C42AC529A5A14800409C59 /* Main.storyboard in Resources */,
-				79C42AEE29A5A27700409C59 /* MNG_DAILY_PLANNING_G3_2019-09-11_08-28-52-141.xml in Resources */,
-				79C42AE729A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-38-52-181.xml in Resources */,
-				79C42AED29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-41-09-471.xml in Resources */,
-				79C42AEB29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-40-01-991.xml in Resources */,
-				79C42AE629A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-74.xml in Resources */,
-				79C42AEC29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_12-39-25-661.xml in Resources */,
-				79C42AE929A5A27700409C59 /* All_in_One_GEN007_2015-07-06_11-31-03-714.xml in Resources */,
-				79C42AEA29A5A27700409C59 /* All_in_One_GEN007_2015-07-06_13-31-03-714.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +367,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2F19BB892B3F2780C8B978A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rta-assigment5/Pods-rta-assigment5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,11 +391,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79006CC129A5C14D00B9BF9C /* UIViewController+ExtensionUIView+Extensions.swift in Sources */,
 				79C42ABE29A5A14800409C59 /* AppDelegate.swift in Sources */,
+				79006CE129A718BC00B9BF9C /* OfficialFilesController.swift in Sources */,
+				79006CD329A6366800B9BF9C /* InstanceIDModel.swift in Sources */,
+				79006CC929A5FE5800B9BF9C /* ReviewDataViewController.swift in Sources */,
+				79006CDA29A7090300B9BF9C /* XMLContentViewController.swift in Sources */,
 				79C42ADA29A5A24C00409C59 /* ListFileViewController.swift in Sources */,
+				79006CDE29A7175B00B9BF9C /* OfficialFilesViewController.swift in Sources */,
 				79C42AD429A5A20300409C59 /* FileModel.swift in Sources */,
 				79C42AC029A5A14800409C59 /* SceneDelegate.swift in Sources */,
+				79006CD729A6F15300B9BF9C /* DBHelper.swift in Sources */,
 				79C42AD729A5A22000409C59 /* ListFileController.swift in Sources */,
+				79006CD529A6507400B9BF9C /* ReviewDataTableCell.swift in Sources */,
+				79006CC329A5F1F800B9BF9C /* FileTableCell.swift in Sources */,
+				79006CCF29A604C100B9BF9C /* FileXMLParser.swift in Sources */,
+				79006CBF29A5BF9700B9BF9C /* Constants.swift in Sources */,
+				79006CCB29A5FE8500B9BF9C /* ReviewDataController.swift in Sources */,
+				79006CD129A60DBF00B9BF9C /* ParseActionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +564,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +594,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
